@@ -7,12 +7,7 @@ Feature: IMDB Most Popular Movies
         Given that I am at the IMDB homepage
         And I have clicked on the menu button
         And I have clicked on most popular movies
-        And that I am on the popular movies page
-
-
-    Scenario: Sort list by ranking
-        When I select sort by ranking in the sort-by box
-        Then the list should sort by ranking
+        And that I am on the popular movies page sorted by ranking
 
 
     Scenario: Sort list by IMDB ratings

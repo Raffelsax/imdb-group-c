@@ -7,13 +7,7 @@ Feature: IMDB Top Rated Movies
     Given that I am at the IMDB homepage
     And I have clicked on the menu button
     And I have clicked on top rated movies
-    And that I am on the top rated movies page
-
-   
-   Scenario: Sort list by ranking
-      
-      When I select sort by ranking in the sort-by box
-      Then the list should sort by ranking
+    And that I am on the top rated movies page sorted by ranking
 
 
    Scenario: Sort list by IMDB ratings

@@ -3,10 +3,10 @@
     "description": "   As a user \n   I would like a list of the top user rated movies on IMDB",
     "elements": [
       {
-        "id": "imdb-top-rated-movies;sort-list-by-ranking",
+        "id": "imdb-top-rated-movies;sort-list-by-imdb-ratings",
         "keyword": "Scenario",
         "line": 13,
-        "name": "Sort list by ranking",
+        "name": "Sort list by IMDB ratings",
         "steps": [
           {
             "arguments": [],
@@ -14,7 +14,7 @@
             "name": "that I am at the IMDB homepage",
             "result": {
               "status": "passed",
-              "duration": 7930935900
+              "duration": 8500171000
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I have clicked on the menu button",
             "result": {
               "status": "passed",
-              "duration": 2008848600
+              "duration": 2018074600
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I have clicked on top rated movies",
             "result": {
               "status": "passed",
-              "duration": 3863101600
+              "duration": 3664166700
             },
             "line": 9,
             "match": {
@@ -50,33 +50,33 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that I am on the top rated movies page",
+            "name": "that I am on the top rated movies page sorted by ranking",
             "result": {
               "status": "passed",
-              "duration": 11418900
+              "duration": 5885799
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:28"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:29"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I select sort by ranking in the sort-by box",
+            "name": "I select sort by IMDB ratings in the sort-by box",
             "result": {
               "status": "passed",
-              "duration": 28598700
+              "duration": 2019231801
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:33"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:35"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the list should sort by ranking",
+            "name": "the list should resort by IMDB ratings",
             "result": {
               "status": "undefined"
             },
@@ -87,99 +87,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1591291900
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "imdb-top-rated-movies;sort-list-by-imdb-ratings",
-        "keyword": "Scenario",
-        "line": 19,
-        "name": "Sort list by IMDB ratings",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that I am at the IMDB homepage",
-            "result": {
-              "status": "passed",
-              "duration": 7760746000
-            },
-            "line": 7,
-            "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:5"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I have clicked on the menu button",
-            "result": {
-              "status": "passed",
-              "duration": 2011295500
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I have clicked on top rated movies",
-            "result": {
-              "status": "passed",
-              "duration": 4016034101
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:21"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that I am on the top rated movies page",
-            "result": {
-              "status": "passed",
-              "duration": 12755600
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I select sort by IMDB ratings in the sort-by box",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 21
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the list should resort by IMDB ratings",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 22
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1611187400
+              "duration": 1533061100
             },
             "hidden": true,
             "match": {
@@ -193,7 +101,7 @@
       {
         "id": "imdb-top-rated-movies;sort-list-by-release-date",
         "keyword": "Scenario",
-        "line": 25,
+        "line": 19,
         "name": "Sort list by release date",
         "steps": [
           {
@@ -202,7 +110,7 @@
             "name": "that I am at the IMDB homepage",
             "result": {
               "status": "passed",
-              "duration": 7764025201
+              "duration": 7546079400
             },
             "line": 7,
             "match": {
@@ -215,7 +123,7 @@
             "name": "I have clicked on the menu button",
             "result": {
               "status": "passed",
-              "duration": 2013649401
+              "duration": 2005660901
             },
             "line": 8,
             "match": {
@@ -228,7 +136,7 @@
             "name": "I have clicked on top rated movies",
             "result": {
               "status": "passed",
-              "duration": 3635827500
+              "duration": 4538373300
             },
             "line": 9,
             "match": {
@@ -238,14 +146,14 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that I am on the top rated movies page",
+            "name": "that I am on the top rated movies page sorted by ranking",
             "result": {
               "status": "passed",
-              "duration": 13988700
+              "duration": 16411300
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:28"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:29"
             }
           },
           {
@@ -255,7 +163,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 27
+            "line": 21
           },
           {
             "arguments": [],
@@ -264,14 +172,14 @@
             "result": {
               "status": "undefined"
             },
-            "line": 28
+            "line": 22
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1657129200
+              "duration": 1481722400
             },
             "hidden": true,
             "match": {
@@ -285,7 +193,7 @@
       {
         "id": "imdb-top-rated-movies;sort-list-by-number-of-ratings",
         "keyword": "Scenario",
-        "line": 31,
+        "line": 25,
         "name": "Sort list by number of ratings",
         "steps": [
           {
@@ -294,7 +202,7 @@
             "name": "that I am at the IMDB homepage",
             "result": {
               "status": "passed",
-              "duration": 7457281699
+              "duration": 10156503799
             },
             "line": 7,
             "match": {
@@ -307,7 +215,7 @@
             "name": "I have clicked on the menu button",
             "result": {
               "status": "passed",
-              "duration": 2006907000
+              "duration": 2016786200
             },
             "line": 8,
             "match": {
@@ -320,7 +228,7 @@
             "name": "I have clicked on top rated movies",
             "result": {
               "status": "passed",
-              "duration": 3630207800
+              "duration": 4005862100
             },
             "line": 9,
             "match": {
@@ -330,14 +238,14 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that I am on the top rated movies page",
+            "name": "that I am on the top rated movies page sorted by ranking",
             "result": {
               "status": "passed",
-              "duration": 20029700
+              "duration": 7452100
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:28"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:29"
             }
           },
           {
@@ -347,7 +255,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 32
+            "line": 26
           },
           {
             "arguments": [],
@@ -356,14 +264,14 @@
             "result": {
               "status": "undefined"
             },
-            "line": 33
+            "line": 27
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1658762701
+              "duration": 1690944999
             },
             "hidden": true,
             "match": {
