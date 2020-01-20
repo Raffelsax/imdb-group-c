@@ -1,121 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="imdb-top-rated-tv-shows;sort-list-by-imdb-rating" tests="6" failures="0" skipped="6">
+    <testsuite name="imdb-most-popular-tv-shows;sort-list-by-imdb-rating" tests="6" failures="0" skipped="2">
         <properties>
-            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-top-rated-tv-shows.feature">
+            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-most-popular-tv-shows.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-most-popular-tv-shows;sort-list-by-imdb-rating" time="7.0361296">
+        </testcase>
+        <testcase name="And i have clicked on the menu button" classname="imdb-most-popular-tv-shows;sort-list-by-imdb-rating" time="2.0042128">
+        </testcase>
+        <testcase name="And i have clicked on most popular shows" classname="imdb-most-popular-tv-shows;sort-list-by-imdb-rating" time="3.2804356">
+        </testcase>
+        <testcase name="And that I am on the most popular TV shows page" classname="imdb-most-popular-tv-shows;sort-list-by-imdb-rating" time="0.004775599">
+        </testcase>
+        <testcase name="When I select sort by IMDB rating in the sort by box" classname="imdb-most-popular-tv-shows;sort-list-by-imdb-rating">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that I am on the top rated TV shows page" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I select sort by IMDB rating in the sort by box" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the list should be sorted by IMDB rating" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
+        <testcase name="Then the list should be sorted by IMDB rating" classname="imdb-most-popular-tv-shows;sort-list-by-imdb-rating">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="6">
+    <testsuite name="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="2">
         <properties>
-            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-top-rated-tv-shows.feature">
+            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-most-popular-tv-shows.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" time="8.0293286">
+        </testcase>
+        <testcase name="And i have clicked on the menu button" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" time="2.0063155">
+        </testcase>
+        <testcase name="And i have clicked on most popular shows" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" time="3.894324099">
+        </testcase>
+        <testcase name="And that I am on the most popular TV shows page" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" time="0.0064447">
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that I am on the top rated TV shows page" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the list should be sorted by number of ratings" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
+        <testcase name="Then the list should be sorted by number of ratings" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="imdb-top-rated-tv-shows;sort-list-by-release-date" tests="6" failures="0" skipped="6">
+    <testsuite name="imdb-most-popular-tv-shows;sort-list-by-release-date" tests="6" failures="0" skipped="2">
         <properties>
-            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-top-rated-tv-shows.feature">
+            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-most-popular-tv-shows.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-most-popular-tv-shows;sort-list-by-release-date" time="6.9338417">
+        </testcase>
+        <testcase name="And i have clicked on the menu button" classname="imdb-most-popular-tv-shows;sort-list-by-release-date" time="2.0057702">
+        </testcase>
+        <testcase name="And i have clicked on most popular shows" classname="imdb-most-popular-tv-shows;sort-list-by-release-date" time="3.365912499">
+        </testcase>
+        <testcase name="And that I am on the most popular TV shows page" classname="imdb-most-popular-tv-shows;sort-list-by-release-date" time="0.0076934">
+        </testcase>
+        <testcase name="When I select sort by release date in the sort by box" classname="imdb-most-popular-tv-shows;sort-list-by-release-date">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that I am on the top rated TV shows page" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I select sort by release date in the sort by box" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the list should be sorted by release date" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
+        <testcase name="Then the list should be sorted by release date" classname="imdb-most-popular-tv-shows;sort-list-by-release-date">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="imdb-top-rated-tv-shows;sort-list-by-release-date" tests="6" failures="0" skipped="6">
+    <testsuite name="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="2">
         <properties>
-            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-top-rated-tv-shows.feature">
+            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-most-popular-tv-shows.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" time="10.424304401">
+        </testcase>
+        <testcase name="And i have clicked on the menu button" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" time="2.005157899">
+        </testcase>
+        <testcase name="And i have clicked on most popular shows" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" time="3.3430745">
+        </testcase>
+        <testcase name="And that I am on the most popular TV shows page" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings" time="0.0074577">
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that I am on the top rated TV shows page" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I select sort by release date in the sort by box" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the list should be sorted by release date" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
+        <testcase name="Then the list should be sorted by number of ratings" classname="imdb-most-popular-tv-shows;sort-list-by-number-of-ratings">
             <skipped message="">
             </skipped>
         </testcase>
