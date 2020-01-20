@@ -1,11 +1,11 @@
 [
   {
-    "description": "   As a user\n   I would like a list of the top user rated TV shows on IMDB",
+    "description": "  As a user\n  I would like a list of the most popular TV shows on IMDB",
     "elements": [
       {
-        "id": "imdb-top-rated-tv-shows;sort-list-by-imdb-rating",
+        "id": "imdb-most-popular-tv-shows;sort-list-by-imdb-rating",
         "keyword": "Scenario",
-        "line": 12,
+        "line": 13,
         "name": "Sort list by IMDB rating",
         "steps": [
           {
@@ -13,36 +13,52 @@
             "keyword": "Given ",
             "name": "that i am on the IMDB front page",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 8269233901
             },
-            "line": 7
+            "line": 7,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:7"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "i have clicked on the menu button",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 2010584699
             },
-            "line": 8
+            "line": 8,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:16"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "i have clicked on top rated shows",
+            "name": "i have clicked on most popular shows",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 3672089900
             },
-            "line": 9
+            "line": 9,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:22"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that I am on the top rated TV shows page",
+            "name": "that I am on the most popular TV shows page sorted by ranking",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 5909500
             },
-            "line": 10
+            "line": 10,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:28"
+            }
           },
           {
             "arguments": [],
@@ -51,7 +67,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 13
+            "line": 14
           },
           {
             "arguments": [],
@@ -60,14 +76,14 @@
             "result": {
               "status": "undefined"
             },
-            "line": 14
+            "line": 15
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4874440600
+              "duration": 1298131999
             },
             "hidden": true,
             "match": {
@@ -79,9 +95,101 @@
         "type": "scenario"
       },
       {
-        "id": "imdb-top-rated-tv-shows;sort-list-by-number-of-ratings",
+        "id": "imdb-most-popular-tv-shows;sort-list-by-release-date",
         "keyword": "Scenario",
-        "line": 16,
+        "line": 17,
+        "name": "Sort list by release date",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i am on the IMDB front page",
+            "result": {
+              "status": "passed",
+              "duration": 6490038300
+            },
+            "line": 7,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2009300400
+            },
+            "line": 8,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i have clicked on most popular shows",
+            "result": {
+              "status": "passed",
+              "duration": 3516418299
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I am on the most popular TV shows page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 12944400
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select sort by release date in the sort by box",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the list should be sorted by release date",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1095096100
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-most-popular-tv-shows;sort-list-by-number-of-ratings",
+        "keyword": "Scenario",
+        "line": 21,
         "name": "Sort list by number of ratings",
         "steps": [
           {
@@ -89,45 +197,65 @@
             "keyword": "Given ",
             "name": "that i am on the IMDB front page",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 7738331700
             },
-            "line": 7
+            "line": 7,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:7"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "i have clicked on the menu button",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 2005510400
             },
-            "line": 8
+            "line": 8,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:16"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "i have clicked on top rated shows",
+            "name": "i have clicked on most popular shows",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 3706900600
             },
-            "line": 9
+            "line": 9,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:22"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that I am on the top rated TV shows page",
+            "name": "that I am on the most popular TV shows page sorted by ranking",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 9115600
             },
-            "line": 10
+            "line": 10,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:28"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "I select sort by number of ratings in the sort by box",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 540720200
             },
-            "line": 17
+            "line": 22,
+            "match": {
+              "location": "folder\\imdb-group-c\\imdb-group-c\\step-definitions\\imdb-menu-tv-shows.js:33"
+            }
           },
           {
             "arguments": [],
@@ -136,166 +264,14 @@
             "result": {
               "status": "undefined"
             },
-            "line": 18
+            "line": 23
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4690872499
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\imdb-group-c\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "imdb-top-rated-tv-shows;sort-list-by-release-date",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "Sort list by release date",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that i am on the IMDB front page",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "i have clicked on the menu button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "i have clicked on top rated shows",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that I am on the top rated TV shows page",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I select sort by release date in the sort by box",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 21
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the list should be sorted by release date",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 22
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 4786741101
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\imdb-group-c\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "imdb-top-rated-tv-shows;sort-list-by-release-date",
-        "keyword": "Scenario",
-        "line": 24,
-        "name": "Sort list by release date",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that i am on the IMDB front page",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "i have clicked on the menu button",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "i have clicked on top rated shows",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that I am on the top rated TV shows page",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I select sort by release date in the sort by box",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 25
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the list should be sorted by release date",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 26
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 4786798201
+              "duration": 1075212800
             },
             "hidden": true,
             "match": {
@@ -307,11 +283,11 @@
         "type": "scenario"
       }
     ],
-    "id": "imdb-top-rated-tv-shows",
+    "id": "imdb-most-popular-tv-shows",
     "keyword": "Feature",
     "line": 1,
-    "name": "IMDB Top Rated TV shows",
+    "name": "IMDB most popular TV shows",
     "tags": [],
-    "uri": "C:\\Users\\insik\\Documents\\New folder\\imdb-group-c\\imdb-group-c\\features\\imdb-top-rated-tv-shows.feature"
+    "uri": "C:\\Users\\insik\\Documents\\New folder\\imdb-group-c\\imdb-group-c\\features\\imdb-most-popular-tv-shows.feature"
   }
 ]
