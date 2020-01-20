@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="imdb-menu;get-the-list-of-the-top-250-movies" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/imdb-group-c/features/imdb-menu.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-menu;get-the-list-of-the-top-250-movies" time="6.917269099">
+            <failure message="TypeError: Cannot read property &apos;constructor&apos; of null">TypeError: Cannot read property &apos;constructor&apos; of null
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\step-definitions\imdb-menu.js:11:52)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-menu;get-the-list-of-the-top-250-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-menu;get-the-list-of-the-top-250-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be taken to the page with the list of top rated movies" classname="imdb-menu;get-the-list-of-the-top-250-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-menu;sort-top-250-movies-list-by-number-of-ratings" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/imdb-group-c/features/imdb-menu.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the top rated movies page" classname="imdb-menu;sort-top-250-movies-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-menu;sort-top-250-movies-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should resort by number of ratings" classname="imdb-menu;sort-top-250-movies-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-menu;get-the-list-of-the-most-popular-movies" tests="4" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/imdb-group-c/features/imdb-menu.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-menu;get-the-list-of-the-most-popular-movies" time="5.901704">
+        </testcase>
+        <testcase name="And I have clicked on the munu button" classname="imdb-menu;get-the-list-of-the-most-popular-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on Most Popular Movies" classname="imdb-menu;get-the-list-of-the-most-popular-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be directed to the Most Popular Movies page" classname="imdb-menu;get-the-list-of-the-most-popular-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-movie" tests="5" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="6.448226701">
+        </testcase>
+        <testcase name="And that I am on the IMDB homepage." classname="imdb-search;search-for-a-movie" time="0.0000811">
+        </testcase>
+        <testcase name="When I enter the &quot;Antz&quot; in a search field" classname="imdb-search;search-for-a-movie" time="5.058238501">
+        </testcase>
+        <testcase name="And i click the search button" classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I find the corresponding &quot;Antz&quot; in the search results." classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-movie" tests="5" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the IMDB website" classname="imdb-search;search-for-a-movie" time="6.9079502">
+        </testcase>
+        <testcase name="And that I am on the IMDB homepage." classname="imdb-search;search-for-a-movie" time="0.000046201">
+        </testcase>
+        <testcase name="When I enter the &quot;A Bug&apos;s Life&quot; in a search field" classname="imdb-search;search-for-a-movie" time="5.085670699">
+        </testcase>
+        <testcase name="And i click the search button" classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I find the corresponding &quot;A Bug&apos;s Life&quot; in the search results." classname="imdb-search;search-for-a-movie">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;get-the-list-of-movies" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/imdb-group-c/features/imdb-top-rated.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;get-the-list-of-movies" time="7.3895896">
+            <failure message="TypeError: Cannot read property &apos;constructor&apos; of null">TypeError: Cannot read property &apos;constructor&apos; of null
+    at createWorld.&lt;anonymous&gt; (C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\step-definitions\imdb-menu.js:11:52)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;get-the-list-of-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;get-the-list-of-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be taken to the page with the list of top rated movies" classname="imdb-top-rated-movies;get-the-list-of-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;sort-list-by-number-of-ratings" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/imdb-group-c/features/imdb-top-rated.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the top rated movies page" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should resort by number of ratings" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="search-google;when-i-enter-a-keyword-in-google-search" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/matti/OneDrive/Skrivbord/Programming/imdb-group-c/features/search-google.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I&apos;m at the search page" classname="search-google;when-i-enter-a-keyword-in-google-search" time="15.010737901">
+            <failure message="function timed out after 15000 milliseconds">function timed out after 15000 milliseconds</failure>
+        </testcase>
+        <testcase name="When I enter search text &quot;rubber ducking&quot;" classname="search-google;when-i-enter-a-keyword-in-google-search">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click the search button" classname="search-google;when-i-enter-a-keyword-in-google-search">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the first test result should contain the word &quot;rubber ducking&quot;" classname="search-google;when-i-enter-a-keyword-in-google-search">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
