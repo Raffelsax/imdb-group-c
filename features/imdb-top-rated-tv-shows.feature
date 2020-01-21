@@ -7,7 +7,7 @@ Feature: IMDB Top Rated TV shows
       Given that i am on the IMDB front page
       And i have clicked on the menu button
       And i have clicked on top rated shows
-      And that I am on the top rated TV shows page
+      And that I am on the top rated TV shows page sorted by ranking
 
    Scenario: Sort list by IMDB rating
       When I select sort by IMDB rating in the sort by box
@@ -21,7 +21,5 @@ Feature: IMDB Top Rated TV shows
       When I select sort by release date in the sort by box
       Then the list should be sorted by release date
 
-   Scenario: Sort list by release date
-      When I select sort by release date in the sort by box
-      Then the list should be sorted by release date
+
 
