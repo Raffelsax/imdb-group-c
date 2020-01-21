@@ -14,7 +14,7 @@
             "name": "that i am on the IMDB front page",
             "result": {
               "status": "passed",
-              "duration": 8269233901
+              "duration": 8763621200
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "i have clicked on the menu button",
             "result": {
               "status": "passed",
-              "duration": 2010584699
+              "duration": 60499001
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "i have clicked on most popular shows",
             "result": {
               "status": "passed",
-              "duration": 3672089900
+              "duration": 2916470300
             },
             "line": 9,
             "match": {
@@ -53,7 +53,7 @@
             "name": "that I am on the most popular TV shows page sorted by ranking",
             "result": {
               "status": "passed",
-              "duration": 5909500
+              "duration": 10418001
             },
             "line": 10,
             "match": {
@@ -83,7 +83,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1298131999
+              "duration": 1956896801
             },
             "hidden": true,
             "match": {
@@ -106,7 +106,7 @@
             "name": "that i am on the IMDB front page",
             "result": {
               "status": "passed",
-              "duration": 6490038300
+              "duration": 7232878099
             },
             "line": 7,
             "match": {
@@ -119,7 +119,7 @@
             "name": "i have clicked on the menu button",
             "result": {
               "status": "passed",
-              "duration": 2009300400
+              "duration": 58729600
             },
             "line": 8,
             "match": {
@@ -132,7 +132,7 @@
             "name": "i have clicked on most popular shows",
             "result": {
               "status": "passed",
-              "duration": 3516418299
+              "duration": 5059071500
             },
             "line": 9,
             "match": {
@@ -145,7 +145,7 @@
             "name": "that I am on the most popular TV shows page sorted by ranking",
             "result": {
               "status": "passed",
-              "duration": 12944400
+              "duration": 9983700
             },
             "line": 10,
             "match": {
@@ -175,7 +175,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1095096100
+              "duration": 1609531600
             },
             "hidden": true,
             "match": {
@@ -198,7 +198,7 @@
             "name": "that i am on the IMDB front page",
             "result": {
               "status": "passed",
-              "duration": 7738331700
+              "duration": 8594290100
             },
             "line": 7,
             "match": {
@@ -211,7 +211,7 @@
             "name": "i have clicked on the menu button",
             "result": {
               "status": "passed",
-              "duration": 2005510400
+              "duration": 59122199
             },
             "line": 8,
             "match": {
@@ -224,7 +224,7 @@
             "name": "i have clicked on most popular shows",
             "result": {
               "status": "passed",
-              "duration": 3706900600
+              "duration": 2745287200
             },
             "line": 9,
             "match": {
@@ -237,7 +237,7 @@
             "name": "that I am on the most popular TV shows page sorted by ranking",
             "result": {
               "status": "passed",
-              "duration": 9115600
+              "duration": 7311300
             },
             "line": 10,
             "match": {
@@ -250,7 +250,7 @@
             "name": "I select sort by number of ratings in the sort by box",
             "result": {
               "status": "passed",
-              "duration": 540720200
+              "duration": 60586000
             },
             "line": 22,
             "match": {
@@ -271,7 +271,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1075212800
+              "duration": 1887425800
             },
             "hidden": true,
             "match": {
