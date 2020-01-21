@@ -54,5 +54,4 @@ module.exports = function () {
         let logo = await driver.findElement(by.css('.ipc-button__text'));
         assert(logo, 'Expected the profile button to tell that the user is loggd in');
     });
-
 }

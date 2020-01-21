@@ -18,3 +18,6 @@ Feature: IMDB Sing in
         And type in the email : "anton.fransen@hotmail.com"
         And type in the password : "gifflar125" + hit ENTER
         Then I should get singnd in
+
+
+

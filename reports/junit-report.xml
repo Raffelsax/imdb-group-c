@@ -1,37 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="0" skipped="0">
+    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="1" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\features\imbd-signin.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="8.6030176">
+        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="8.068662001">
         </testcase>
-        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="1.009621901">
+        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="0.80468">
         </testcase>
-        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1095316">
+        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1272722">
         </testcase>
-        <testcase name="And type in the password : &quot;gifflar125&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="2.0997373">
+        <testcase name="And type in the password : &quot;gifflar125&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.0756722">
         </testcase>
-        <testcase name="And click sing in" classname="imdb-sing-in;sign-in-with-imdb" time="9.073403801">
+        <testcase name="And click sing in" classname="imdb-sing-in;sign-in-with-imdb" time="1.4462644">
         </testcase>
-        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.079910599">
+        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.039184299">
+            <failure message="NoSuchElementError: Unable to locate element: .ipc-button__text">NoSuchElementError: Unable to locate element: .ipc-button__text
+    at Object.throwDecodedError (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
+    at thenableWebDriverProxy.schedule (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\step-definitions\imbd-signin.js:54:33)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
         </testcase>
     </testsuite>
-    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="5" failures="0" skipped="0">
+    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="5" failures="1" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\features\imbd-signin.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="8.3261646">
+        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="10.254910901">
         </testcase>
-        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="1.257939101">
+        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="1.153795099">
         </testcase>
-        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.136670199">
+        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1303488">
         </testcase>
-        <testcase name="And type in the password : &quot;gifflar125&quot; + hit ENTER" classname="imdb-sing-in;sign-in-with-imdb" time="2.104609">
+        <testcase name="And type in the password : &quot;gifflar125&quot; + hit ENTER" classname="imdb-sing-in;sign-in-with-imdb" time="0.1805774">
         </testcase>
-        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.2631177">
+        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.121601401">
+            <failure message="NoSuchElementError: Unable to locate element: .ipc-button__text">NoSuchElementError: Unable to locate element: .ipc-button__text
+    at Object.throwDecodedError (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
+    at thenableWebDriverProxy.schedule (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\step-definitions\imbd-signin.js:54:33)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
         </testcase>
     </testsuite>
 </testsuites>
