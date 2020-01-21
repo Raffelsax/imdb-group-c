@@ -1,57 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="1" skipped="0">
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\features\imbd-signin.feature">
+            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="8.068662001">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="5.3332788">
         </testcase>
-        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="0.80468">
+        <testcase name="And I have selected the All filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0099787">
         </testcase>
-        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1272722">
+        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0733353">
         </testcase>
-        <testcase name="And type in the password : &quot;gifflar125&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.0756722">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0412822">
         </testcase>
-        <testcase name="And click sing in" classname="imdb-sing-in;sign-in-with-imdb" time="1.4462644">
-        </testcase>
-        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.039184299">
-            <failure message="NoSuchElementError: Unable to locate element: .ipc-button__text">NoSuchElementError: Unable to locate element: .ipc-button__text
-    at Object.throwDecodedError (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\error.js:497:15)
-    at parseHttpResponse (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:519:13)
-    at C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:441:30
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
-    at thenableWebDriverProxy.schedule (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
-    at thenableWebDriverProxy.findElement (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
-    at createWorld.&lt;anonymous&gt; (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\step-definitions\imbd-signin.js:54:33)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.2095533">
         </testcase>
     </testsuite>
-    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="5" failures="1" skipped="0">
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\features\imbd-signin.feature">
+            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="10.254910901">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="6.4431984">
         </testcase>
-        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="1.153795099">
+        <testcase name="And I have selected the All filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.006970501">
         </testcase>
-        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1303488">
+        <testcase name="When I enter &quot;Breaking Bad&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.098884301">
         </testcase>
-        <testcase name="And type in the password : &quot;gifflar125&quot; + hit ENTER" classname="imdb-sing-in;sign-in-with-imdb" time="0.1805774">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.1475942">
         </testcase>
-        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.121601401">
-            <failure message="NoSuchElementError: Unable to locate element: .ipc-button__text">NoSuchElementError: Unable to locate element: .ipc-button__text
-    at Object.throwDecodedError (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\error.js:497:15)
-    at parseHttpResponse (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:519:13)
-    at C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:441:30
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
-    at thenableWebDriverProxy.schedule (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
-    at thenableWebDriverProxy.findElement (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
-    at createWorld.&lt;anonymous&gt; (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\step-definitions\imbd-signin.js:54:33)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.615049">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="5.174385101">
+        </testcase>
+        <testcase name="And I have selected the Celebs filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.258807499">
+        </testcase>
+        <testcase name="When I enter &quot;Ben Affleck&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.2899176">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.040937899">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.4296928">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="5.3740775">
+        </testcase>
+        <testcase name="And I have selected the Celebs filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.273438">
+        </testcase>
+        <testcase name="When I enter &quot;Halle Berry&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.3013187">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0457932">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.6418184">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="5.2677688">
+        </testcase>
+        <testcase name="And I have selected the Celebs filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.260422001">
+        </testcase>
+        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.2813471">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0522993">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.991081299">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="5.1449868">
+        </testcase>
+        <testcase name="And I have selected the Keyword filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.2570735">
+        </testcase>
+        <testcase name="When I enter &quot;Cars&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.2600421">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.0609085">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="1.342097">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" tests="5" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="6.497027999">
+        </testcase>
+        <testcase name="And I have selected the Keyword filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.317978201">
+            <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
+    at createWorld.&lt;anonymous&gt; (C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\step-definitions\imdb-search.js:60:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+        <testcase name="When I enter &quot;Clown&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>
