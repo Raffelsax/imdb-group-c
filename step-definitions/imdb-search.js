@@ -57,8 +57,10 @@ module.exports = function () {
         let filterButton = await $('.ipc-icon--arrow-drop-down');
         filterButton.click();
         let keyWordButton = await $('a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)')
+        //a._1L5qcXA4wOKR8LeHJgsqja:nth-child(6)
         keyWordButton.click()
         assert(keyWordButton, 'Expected the Keyword filter to be chosen');
     });
 
 }
+
