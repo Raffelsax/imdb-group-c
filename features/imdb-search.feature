@@ -27,9 +27,9 @@ Feature: IMDB-search
             | "Halle Berry" |
             | "Avatar"      |
 
-    Scenario Outline: Search for keywords using the "Keyword" filter
+    Scenario Outline: Search for keywords using the "Keywords" filter
         Given that I am at the IMDB website
-        And I have selected the "Keyword" filter from the drop down menu
+        And I have selected the "Keywords" filter from the drop down menu
         When I enter <userSearch> in the search field
         And I click the search button
         Then I get a list of results
@@ -40,36 +40,23 @@ Feature: IMDB-search
             | "Clown"    |
 
 
-            Scenario Outline: Search for a title using the "Titles" filter
-             Given that i am at the IMDB website
-             And i have selected the "Titles" filter from the drop down menu
-             When i enter <userSearch> in the search field
-             And i click the search button
-             Then i get a list of results
-
-             Examples: 
-
-             | userSearch |
-             | "The dark knight" |
-             | "Wanted" |
-
     Scenario Outline: Search for a Tv Episode using the "Tv Episodes" filter
-             Given that i am at the IMDB website
-             And i have selected the "Tv Episodes" filter from the drop down menu
-             When i enter <userSearch> in the search field
-             And i click the search button
-             Then i get a list of results
+        Given that i am at the IMDB website
+        And i have selected the "Tv Episodes" filter from the drop down menu
+        When i enter <userSearch> in the search field
+        And i click the search button
+        Then i get a list of results
 
-             Examples: 
+        Examples:
 
-             | userSearch |
-             | "The Kardashians" |
-             | "The Walking Dead" |
-
-
+            | userSearch         |
+            | "The Kardashians"  |
+            | "The Walking Dead" |
 
 
 
-            
+
+
+
 
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-title.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am at the IMDB website" classname="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" time="5.803491799">
+        </testcase>
+        <testcase name="And i have selected the &quot;Titles&quot; filter from the drop down menu" classname="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" time="0.5540913">
+        </testcase>
+        <testcase name="When i enter &quot;The dark knight&quot; in the search field and hit enter" classname="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" time="0.0801681">
+        </testcase>
+        <testcase name="Then i get a list of results and click on the first result that comes up" classname="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" time="7.7419423">
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,6 +1,6 @@
 Feature: Part of Imdb-search
 
-  Scenario Outline: Search for keywords using the "Celebs" filter
+  Scenario Outline: Search for celeb using the "Celebs" filter
     Given that I am at the IMDB website
     And I have selected the "Celebs" filter from the drop down menu
     When I enter <userSearch> in the search field

@@ -1,0 +1,86 @@
+[
+  {
+    "elements": [
+      {
+        "id": "part-of-imdb-search;search-for-a-title-using-the-\"titles\"-filter",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search for a title using the \"Titles\" filter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 5803491799
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i have selected the \"Titles\" filter from the drop down menu",
+            "result": {
+              "status": "passed",
+              "duration": 554091300
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i enter \"The dark knight\" in the search field and hit enter",
+            "result": {
+              "status": "passed",
+              "duration": 80168100
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i get a list of results and click on the first result that comes up",
+            "result": {
+              "status": "passed",
+              "duration": 7741942300
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1389841400
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "part-of-imdb-search",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Part of Imdb-search",
+    "tags": [],
+    "uri": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\features\\imdb-title.feature"
+  }
+]

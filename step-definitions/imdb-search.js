@@ -54,7 +54,40 @@ module.exports = function () {
     await button.click();
     let filterLink = await $('.search-category-selector a[aria-label="' + filterName + '"]');
     await filterLink.click();
-    await sleep(2000);
+    await sleep(1000);
+  });
+
+  this.Given(/^that i am at the IMDB website$/, async function () {
+    await helpers.loadPage('https://imdb.com');
+    let logo = await $('#home_img_holder');
+    assert(logo, 'Expected the IMDB logo to prove that I am on the IMDB website');
+  });
+
+  this.Given(/^i have selected the "([^"]*)" filter from the drop down menu$/, async function (filterName) {
+    let Titlesbutton = await $('.ipc-icon--arrow-drop-down')
+    await Titlesbutton.click();
+    let TitleLink = await driver.findElement(by.linkText("Titles"))
+    await TitleLink.click();
+
+  });
+  this.When(/^i enter "([^"]*)" in the search field and hit enter$/, async function (userSearch) {
+    let searchbox = await $('#suggestion-search')
+    console.log("HEJ", userSearch)
+    await searchbox.sendKeys(userSearch, selenium.Key.ENTER)
+  });
+
+  this.Then(/^i get a list of results and click on the first result that comes up$/, async function () {
+    // wait for search results to show
+    await driver.wait(until.elementLocated(By.css('.findResult, .findNoResults')));
+    // get all results
+    let allResults = await $('.findResult');
+    // check that we have at least one result
+    assert(allResults.length > 0, "No search results...");
+    // get the link element inside the first result
+    let firstResultLink = allResults[0].findElement(By.css('a'));
+    // click the link
+    await firstResultLink.click();
+    await sleep(4000)
   });
 
 
