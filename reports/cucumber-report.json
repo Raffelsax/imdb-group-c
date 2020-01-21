@@ -1,0 +1,313 @@
+[
+  {
+    "description": "    As a user\n    I would like a list of the top 100 most popular movies",
+    "elements": [
+      {
+        "id": "imdb-most-popular-movies;sort-list-by-imdb-ratings",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Sort list by IMDB ratings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am at the IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8213309400
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2015733800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have clicked on most popular movies",
+            "result": {
+              "status": "passed",
+              "duration": 3768850001
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I am on the popular movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 14771701
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select sort by IMDB ratings in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2037734300
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the list should re-sort by IMDB ratings",
+            "result": {
+              "status": "passed",
+              "duration": 1887051300
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1489444900
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-most-popular-movies;sort-list-by-release-date",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Sort list by release date",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am at the IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8102762800
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2012469200
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have clicked on most popular movies",
+            "result": {
+              "status": "passed",
+              "duration": 3428750800
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I am on the popular movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 10437999
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select sort by release date in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2013189900
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the list should re-sort by release date",
+            "result": {
+              "status": "passed",
+              "duration": 1847240901
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1470191599
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-most-popular-movies;sort-list-by-number-of-ratings",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Sort list by number of ratings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am at the IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7864041100
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2013486800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have clicked on most popular movies",
+            "result": {
+              "status": "passed",
+              "duration": 3902106100
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I am on the popular movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 7155799
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select sort by number of ratings in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2023132601
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the list should re-sort by number of ratings",
+            "result": {
+              "status": "passed",
+              "duration": 1626564799
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1683025199
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "imdb-most-popular-movies",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "IMDB Most Popular Movies",
+    "tags": [],
+    "uri": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\features\\imdb-most-popular-movies.feature"
+  }
+]
