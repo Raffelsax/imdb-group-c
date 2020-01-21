@@ -13,17 +13,17 @@ Feature: IMDB Top Rated Movies
    Scenario: Sort list by IMDB ratings
       
       When I select sort by IMDB ratings in the sort-by box
-      Then the list should resort by IMDB ratings
+      Then the list should re-sort by IMDB ratings
 
 
    Scenario: Sort list by release date
       
       When I select sort by release date in the sort-by box
-      Then the list should resort by release date
+      Then the list should re-sort by release date
 
 
    Scenario: Sort list by number of ratings
       When I select sort by number of ratings in the sort-by box
-      Then the list should sort by number of ratings
+      Then the list should re-sort by number of ratings
 
    

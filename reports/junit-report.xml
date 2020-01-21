@@ -1,67 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="imdb-top-rated-movies;sort-list-by-imdb-ratings" tests="6" failures="0" skipped="1">
+    <testsuite name="imdb-most-popular-movies;sort-list-by-imdb-ratings" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="8.500171">
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="8.2133094">
         </testcase>
-        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="2.0180746">
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="2.0157338">
         </testcase>
-        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="3.6641667">
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="3.768850001">
         </testcase>
-        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="0.005885799">
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="0.014771701">
         </testcase>
-        <testcase name="When I select sort by IMDB ratings in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="2.019231801">
+        <testcase name="When I select sort by IMDB ratings in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="2.0377343">
         </testcase>
-        <testcase name="Then the list should resort by IMDB ratings" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the list should re-sort by IMDB ratings" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="1.8870513">
         </testcase>
     </testsuite>
-    <testsuite name="imdb-top-rated-movies;sort-list-by-release-date" tests="6" failures="0" skipped="2">
+    <testsuite name="imdb-most-popular-movies;sort-list-by-release-date" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-release-date" time="7.5460794">
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-release-date" time="8.1027628">
         </testcase>
-        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-release-date" time="2.005660901">
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-release-date" time="2.0124692">
         </testcase>
-        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-release-date" time="4.5383733">
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-release-date" time="3.4287508">
         </testcase>
-        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-release-date" time="0.0164113">
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-release-date" time="0.010437999">
         </testcase>
-        <testcase name="When I select sort by release date in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I select sort by release date in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-release-date" time="2.0131899">
         </testcase>
-        <testcase name="Then the list should resort by release date" classname="imdb-top-rated-movies;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the list should re-sort by release date" classname="imdb-most-popular-movies;sort-list-by-release-date" time="1.847240901">
         </testcase>
     </testsuite>
-    <testsuite name="imdb-top-rated-movies;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="2">
+    <testsuite name="imdb-most-popular-movies;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="10.156503799">
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="7.8640411">
         </testcase>
-        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="2.0167862">
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="2.0134868">
         </testcase>
-        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="4.0058621">
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="3.9021061">
         </testcase>
-        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="0.0074521">
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="0.007155799">
         </testcase>
-        <testcase name="When I select sort by number of ratings in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I select sort by number of ratings in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="2.023132601">
         </testcase>
-        <testcase name="Then the list should sort by number of ratings" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the list should re-sort by number of ratings" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="1.626564799">
         </testcase>
     </testsuite>
 </testsuites>
