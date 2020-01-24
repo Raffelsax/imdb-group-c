@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
+<<<<<<< HEAD
     <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imbd-signin.feature">
@@ -574,6 +575,105 @@ From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
         <testcase name="And I click the search button" classname="part-of-imdb-search;search-for-celeb-using-the-&quot;celebs&quot;-filter" time="0.0318406">
         </testcase>
         <testcase name="Then I get a list of results" classname="part-of-imdb-search;search-for-celeb-using-the-&quot;celebs&quot;-filter" time="1.001614699">
+=======
+<<<<<<< Updated upstream
+    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="4.2491155">
+        </testcase>
+        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="0.44321">
+        </testcase>
+        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1063105">
+        </testcase>
+        <testcase name="And type in the password : &quot;gifflar125&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.031427901">
+        </testcase>
+        <testcase name="And click sing in" classname="imdb-sing-in;sign-in-with-imdb" time="2.919296001">
+        </testcase>
+        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.0183947">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="5" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="4.245899">
+        </testcase>
+        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="0.4454112">
+        </testcase>
+        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.052342799">
+        </testcase>
+        <testcase name="And type in the password : &quot;gifflar125&quot; + hit ENTER" classname="imdb-sing-in;sign-in-with-imdb" time="0.059293301">
+        </testcase>
+        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.0058244">
+            <failure message="NoSuchElementError: Unable to locate element: .ipc-button__text">NoSuchElementError: Unable to locate element: .ipc-button__text
+    at Object.throwDecodedError (C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
+    at thenableWebDriverProxy.schedule (C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\step-definitions\imbd-signin.js:54:33)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+=======
+    <testsuite name="imdb-top-rated-movies;sort-list-by-imdb-ratings" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="10.6987647">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="2.0261076">
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="5.566691501">
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="0.0126133">
+        </testcase>
+        <testcase name="When I select sort by IMDB ratings in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="2.0931367">
+        </testcase>
+        <testcase name="Then the list should re-sort by IMDB ratings" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="4.0664555">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;sort-list-by-release-date" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-release-date" time="10.480077">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-release-date" time="2.0224613">
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-release-date" time="4.9587764">
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-release-date" time="0.0090742">
+        </testcase>
+        <testcase name="When I select sort by release date in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-release-date" time="2.094587299">
+        </testcase>
+        <testcase name="Then the list should re-sort by release date" classname="imdb-top-rated-movies;sort-list-by-release-date" time="3.222406299">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="9.710543701">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="2.009278099">
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="4.9850096">
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="0.0099945">
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="2.035015801">
+        </testcase>
+        <testcase name="Then the list should re-sort by number of ratings" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="3.5638913">
+>>>>>>> Stashed changes
+>>>>>>> master
         </testcase>
     </testsuite>
 </testsuites>
