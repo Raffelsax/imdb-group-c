@@ -1,62 +1,151 @@
+<<<<<<< HEAD
 [
   {
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    "description": "    As a user\n    I would like a list of the top 100 most popular movies",
     "elements": [
       {
-        "id": "part-of-imdb-search;search-for-a-title-using-the-\"titles\"-filter",
+        "id": "imdb-most-popular-movies;sort-list-by-imdb-ratings",
         "keyword": "Scenario",
-        "line": 12,
-        "name": "Search for a title using the \"Titles\" filter",
+        "line": 13,
+        "name": "Sort list by IMDB ratings",
+=======
+    "description": "    As a movie buff\n    I would like to search for movies.",
+=======
+    "description": "    As a fan of movies and Tv series",
+>>>>>>> Stashed changes
+    "elements": [
+      {
+        "id": "imdb-search;search-for-keywords-using-the-\"all\"-filter",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Search for keywords using the \"All\" filter",
+>>>>>>> master
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that i am at the IMDB website",
+<<<<<<< HEAD
+            "name": "that I am at the IMDB homepage",
             "result": {
               "status": "passed",
-              "duration": 5803491799
+              "duration": 8213309400
             },
-            "line": 4,
+            "line": 7,
             "match": {
-              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:60"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
+=======
+            "name": "that I am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 7343644900
+            },
+            "line": 6,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "i have selected the \"Titles\" filter from the drop down menu",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+            "name": "I have clicked on the menu button",
             "result": {
               "status": "passed",
-              "duration": 554091300
+              "duration": 2015733800
             },
-            "line": 5,
+            "line": 8,
             "match": {
-              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:66"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+=======
+            "name": "I have selected the All filter from the drop down menu",
+=======
+            "name": "I have selected the \"All\" filter from the drop down menu",
+>>>>>>> Stashed changes
+            "result": {
+              "status": "passed",
+              "duration": 1505726900
+            },
+            "line": 7,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:13"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:52"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "i enter \"The dark knight\" in the search field and hit enter",
+<<<<<<< HEAD
+            "keyword": "And ",
+            "name": "I have clicked on most popular movies",
             "result": {
               "status": "passed",
-              "duration": 80168100
+              "duration": 3768850001
             },
-            "line": 6,
+            "line": 9,
             "match": {
-              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:73"
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:7"
+=======
+            "keyword": "When ",
+            "name": "I enter \"Avatar\" in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 90241400
+            },
+            "line": 8,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:18"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:15"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< HEAD
+            "name": "that I am on the popular movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 14771701
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:14"
+=======
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 36607500
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "i get a list of results and click on the first result that comes up",
+            "name": "I get a list of results",
             "result": {
               "status": "passed",
-              "duration": 7741942300
+              "duration": 1776497300
             },
-            "line": 7,
+            "line": 10,
             "match": {
-              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:79"
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:27"
             }
           },
           {
@@ -64,7 +153,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1389841400
+              "duration": 1340311900
             },
             "hidden": true,
             "match": {
@@ -74,13 +163,993 @@
         ],
         "tags": [],
         "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-keywords-using-the-\"all\"-filter",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Search for keywords using the \"All\" filter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 7367749700
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have selected the \"All\" filter from the drop down menu",
+            "result": {
+              "status": "passed",
+              "duration": 1623369400
+            },
+            "line": 7,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:13"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:52"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+<<<<<<< HEAD
+            "name": "I select sort by IMDB ratings in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2037734300
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:37"
+=======
+            "name": "I enter \"Breaking Bad\" in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 68493800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 51289000
+            },
+            "line": 9,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:25"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:22"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+<<<<<<< HEAD
+            "name": "the list should re-sort by IMDB ratings",
+            "result": {
+              "status": "passed",
+              "duration": 1887051300
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:46"
+=======
+            "name": "I get a list of results",
+            "result": {
+              "status": "passed",
+              "duration": 1421299999
+            },
+            "line": 10,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:30"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:27"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+              "duration": 1489444900
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+              "duration": 1161458500
+=======
+              "duration": 1231313499
+>>>>>>> Stashed changes
+            },
+            "hidden": true,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> Stashed changes
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+<<<<<<< HEAD
+        "id": "imdb-most-popular-movies;sort-list-by-release-date",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Sort list by release date",
+=======
+        "id": "imdb-search;search-for-keywords-using-the-\"celebs\"-filter",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Search for keywords using the \"Celebs\" filter",
+>>>>>>> master
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+<<<<<<< HEAD
+            "name": "that I am at the IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 8102762800
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
+=======
+            "name": "that I am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 6297009800
+            },
+            "line": 18,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+            "name": "I have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2012469200
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+=======
+            "name": "I have selected the Celebs filter from the drop down menu",
+=======
+            "name": "I have selected the \"Celebs\" filter from the drop down menu",
+>>>>>>> Stashed changes
+            "result": {
+              "status": "passed",
+              "duration": 1499214601
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"Ben Affleck\" in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 83631999
+            },
+            "line": 20,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:18"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:15"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< HEAD
+            "name": "I have clicked on most popular movies",
+            "result": {
+              "status": "passed",
+              "duration": 3428750800
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:7"
+=======
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 36870200
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I get a list of results",
+            "result": {
+              "status": "passed",
+              "duration": 1410630699
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1465502100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-keywords-using-the-\"celebs\"-filter",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Search for keywords using the \"Celebs\" filter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 10854343700
+            },
+            "line": 18,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+            "name": "that I am on the popular movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 10437999
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:14"
+=======
+            "name": "I have selected the Celebs filter from the drop down menu",
+=======
+            "name": "I have selected the \"Celebs\" filter from the drop down menu",
+>>>>>>> Stashed changes
+            "result": {
+              "status": "passed",
+              "duration": 1581590100
+            },
+            "line": 19,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:48"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:52"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+<<<<<<< HEAD
+            "name": "I select sort by release date in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2013189900
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:53"
+=======
+            "name": "I enter \"Halle Berry\" in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 104404600
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 46705399
+            },
+            "line": 21,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:25"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:22"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+<<<<<<< HEAD
+            "name": "the list should re-sort by release date",
+            "result": {
+              "status": "passed",
+              "duration": 1847240901
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:60"
+=======
+            "name": "I get a list of results",
+            "result": {
+              "status": "passed",
+              "duration": 1627671099
+            },
+            "line": 22,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:30"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:27"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+              "duration": 1470191599
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+              "duration": 1086578100
+            },
+            "hidden": true,
+            "match": {
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> master
+=======
+              "duration": 1218734000
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> Stashed changes
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+<<<<<<< HEAD
+        "id": "imdb-most-popular-movies;sort-list-by-number-of-ratings",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Sort list by number of ratings",
+=======
+        "id": "imdb-search;search-for-keywords-using-the-\"celebs\"-filter",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Search for keywords using the \"Celebs\" filter",
+>>>>>>> master
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+<<<<<<< HEAD
+            "name": "that I am at the IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 7864041100
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
+=======
+            "name": "that I am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 8233642800
+            },
+            "line": 18,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+            "name": "I have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2013486800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+=======
+            "name": "I have selected the Celebs filter from the drop down menu",
+=======
+            "name": "I have selected the \"Celebs\" filter from the drop down menu",
+>>>>>>> Stashed changes
+            "result": {
+              "status": "passed",
+              "duration": 1593461200
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"Avatar\" in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 112927701
+            },
+            "line": 20,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:18"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:15"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< HEAD
+            "name": "I have clicked on most popular movies",
+            "result": {
+              "status": "passed",
+              "duration": 3902106100
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:7"
+=======
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 193154100
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I get a list of results",
+            "result": {
+              "status": "passed",
+              "duration": 3056710300
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2268792200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-keywords-using-the-\"keywords\"-filter",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Search for keywords using the \"Keywords\" filter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 7888762000
+            },
+            "line": 31,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+            "name": "that I am on the popular movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 7155799
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-most-popular-movies.js:14"
+=======
+            "name": "I have selected the Keyword filter from the drop down menu",
+=======
+            "name": "I have selected the \"Keywords\" filter from the drop down menu",
+>>>>>>> Stashed changes
+            "result": {
+              "status": "passed",
+              "duration": 1641057000
+            },
+            "line": 32,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:56"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:52"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+<<<<<<< HEAD
+            "name": "I select sort by number of ratings in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2023132601
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:66"
+=======
+            "name": "I enter \"Cars\" in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 74532800
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 57925900
+            },
+            "line": 34,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:25"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:22"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+<<<<<<< HEAD
+            "name": "the list should re-sort by number of ratings",
+            "result": {
+              "status": "passed",
+              "duration": 1626564799
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:73"
+=======
+            "name": "I get a list of results",
+            "result": {
+              "status": "passed",
+              "duration": 3040554799
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2116442699
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-keywords-using-the-\"keywords\"-filter",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Search for keywords using the \"Keywords\" filter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 6055349401
+            },
+            "line": 31,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have selected the \"Keywords\" filter from the drop down menu",
+            "result": {
+              "status": "passed",
+              "duration": 1491088500
+            },
+            "line": 32,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"Clown\" in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 53403200
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the search button",
+            "result": {
+              "status": "passed",
+              "duration": 30888800
+            },
+            "line": 34,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I get a list of results",
+            "result": {
+              "status": "passed",
+              "duration": 3990356000
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1177935999
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-a-tv-episode-using-the-\"tv-episodes\"-filter",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Search for a Tv Episode using the \"Tv Episodes\" filter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 8463070400
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i have selected the \"Tv Episodes\" filter from the drop down menu",
+            "result": {
+              "status": "passed",
+              "duration": 962705500
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i enter \"The Kardashians\" in the search field",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the search button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i get a list of results",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 3932947700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-search;search-for-a-tv-episode-using-the-\"tv-episodes\"-filter",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Search for a Tv Episode using the \"Tv Episodes\" filter",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i am at the IMDB website",
+            "result": {
+              "status": "passed",
+              "duration": 6304952200
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i have selected the \"Tv Episodes\" filter from the drop down menu",
+            "result": {
+              "status": "passed",
+              "duration": 548575699
+            },
+            "line": 45,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\step-definitions\\imdb-search.js:30"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imdb-search.js:66"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i enter \"The Walking Dead\" in the search field",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i click the search button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i get a list of results",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+              "duration": 1683025199
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+              "duration": 1690696999
+=======
+              "duration": 1336190600
+>>>>>>> Stashed changes
+            },
+            "hidden": true,
+            "match": {
+<<<<<<< Updated upstream
+              "location": "Drive\\Skola\\dev\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> master
+=======
+              "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> Stashed changes
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
       }
     ],
-    "id": "part-of-imdb-search",
+<<<<<<< HEAD
+    "id": "imdb-most-popular-movies",
     "keyword": "Feature",
     "line": 1,
-    "name": "Part of Imdb-search",
+    "name": "IMDB Most Popular Movies",
     "tags": [],
-    "uri": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\features\\imdb-title.feature"
+    "uri": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\features\\imdb-most-popular-movies.feature"
+=======
+    "id": "imdb-search",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "IMDB-search",
+    "tags": [],
+<<<<<<< Updated upstream
+    "uri": "C:\\Users\\srcha\\Google Drive\\Skola\\dev\\imdb-group-c\\features\\imdb-search.feature"
+>>>>>>> master
+=======
+    "uri": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\features\\imdb-search.feature"
+>>>>>>> Stashed changes
   }
 ]
+=======
+>>>>>>> master
