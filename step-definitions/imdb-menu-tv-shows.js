@@ -2,7 +2,7 @@ let { $, sleep } = require('./funcs');
 
 module.exports = function () {
 
-    let sleepTime = 500
+    let sleepTime = 1000
 
     this.Given(/^that i am on the IMDB front page$/, async function () {
         await helpers.loadPage('https://www.imdb.com/?ref_=nv_home');
@@ -38,7 +38,7 @@ module.exports = function () {
 
     });
 
-    this.Then(/^the list should be sorted by number of ratings$/, async function () {
+    this.Then(/^the popular shows list should be sorted by number of ratings$/, async function () {
         driver.navigate().refresh();
         let option = await driver.findElement(by.css('#lister-sort-by-options option[selected]')).getText()
         console.log(option)
@@ -52,7 +52,7 @@ module.exports = function () {
     });
 
 
-    this.Then(/^the list should be sorted by IMDB rating$/, async function () {
+    this.Then(/^the popular shows list should be sorted by IMDB rating$/, async function () {
         driver.navigate().refresh();
         let option = await driver.findElement(by.css('#lister-sort-by-options option[selected]')).getText()
         console.log(option)
@@ -65,11 +65,31 @@ module.exports = function () {
         await sleep(sleepTime)
     });
 
-    this.Then(/^the list should be sorted by release date$/, async function () {
+    this.Then(/^the popular shows list should be sorted by release date$/, async function () {
         driver.navigate().refresh();
         let option = await driver.findElement(by.css('#lister-sort-by-options option[selected]')).getText()
         console.log(option)
         assert.deepEqual('Release Date', option, "[message]");
     });
 
+    this.Given(/^i have clicked on top rated shows$/, async function () {
+        let linkElement = await driver.findElement(by.linkText("Top Rated Shows"))
+        await linkElement.click();
+        await sleep(sleepTime)
+    });
+
+    this.Given(/^that I am on the top rated TV shows page sorted by ranking$/, async function () {
+        let option = await driver.findElement(by.css('#lister-sort-by-options option[selected]')).getText()
+        console.log(option)
+        assert.deepEqual('Ranking', option, "[message]");
+    });
+
+    this.Then(/^the list should be sorted by release date$/, async function () {
+        driver.navigate().refresh();
+        let option = await driver.findElement(by.css('#lister-sort-by-options option[selected]')).getText()
+        console.log(option)
+        assert.equal('Release Date', option, "[message]");
+    });
 }
+
+
