@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "description": "   As a user\n   I would like a list of the top user rated TV shows on IMDB",
@@ -310,3 +311,5 @@
     "uri": "C:\\Users\\insik\\Documents\\New folder\\imdb-group-c\\imdb-group-c\\features\\imdb-top-rated-tv-shows.feature"
   }
 ]
+=======
+>>>>>>> master
