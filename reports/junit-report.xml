@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
+<<<<<<< HEAD
     <testsuite name="imdb-menu;get-the-list-of-the-top-250-movies" tests="4" failures="1" skipped="3">
         <properties>
             <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-menu.feature">
@@ -211,10 +212,87 @@
         <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.029864699">
         </testcase>
         <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.8223761">
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    <testsuite name="imdb-most-popular-movies;sort-list-by-imdb-ratings" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="8.2133094">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="2.0157338">
+        </testcase>
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="3.768850001">
+        </testcase>
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="0.014771701">
+        </testcase>
+        <testcase name="When I select sort by IMDB ratings in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="2.0377343">
+        </testcase>
+        <testcase name="Then the list should re-sort by IMDB ratings" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="1.8870513">
         </testcase>
     </testsuite>
-    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" tests="5" failures="1" skipped="3">
+    <testsuite name="imdb-most-popular-movies;sort-list-by-release-date" tests="6" failures="0" skipped="0">
         <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-release-date" time="8.1027628">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-release-date" time="2.0124692">
+        </testcase>
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-release-date" time="3.4287508">
+        </testcase>
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-release-date" time="0.010437999">
+        </testcase>
+        <testcase name="When I select sort by release date in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-release-date" time="2.0131899">
+        </testcase>
+        <testcase name="Then the list should re-sort by release date" classname="imdb-most-popular-movies;sort-list-by-release-date" time="1.847240901">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-most-popular-movies;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="7.8640411">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="2.0134868">
+        </testcase>
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="3.9021061">
+        </testcase>
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="0.007155799">
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="2.023132601">
+        </testcase>
+        <testcase name="Then the list should re-sort by number of ratings" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="1.626564799">
+=======
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" tests="5" failures="0" skipped="0">
+=======
+    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="0" skipped="0">
+>>>>>>> Stashed changes
+        <properties>
+            <property name="URI" value="C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\features\imbd-signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="9.6132832">
+        </testcase>
+        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="0.8203631">
+        </testcase>
+        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1229622">
+        </testcase>
+        <testcase name="And type in the password : &quot;gifflar125&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.0902875">
+        </testcase>
+        <testcase name="And click sing in" classname="imdb-sing-in;sign-in-with-imdb" time="8.6063979">
+        </testcase>
+        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.1359356">
+>>>>>>> master
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="5" failures="1" skipped="0">
+        <properties>
+<<<<<<< HEAD
             <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
             </property>
         </properties>
@@ -229,14 +307,37 @@
         <testcase name="When I enter &quot;Cars&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
             <skipped message="">
             </skipped>
+=======
+            <property name="URI" value="C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\features\imbd-signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="10.4335032">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
-            <skipped message="">
-            </skipped>
+        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="1.1504274">
         </testcase>
+        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.144261799">
+>>>>>>> master
+        </testcase>
+        <testcase name="And type in the password : &quot;gifflar125&quot; + hit ENTER" classname="imdb-sing-in;sign-in-with-imdb" time="0.140035201">
+        </testcase>
+<<<<<<< Updated upstream
         <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
             <skipped message="">
             </skipped>
+>>>>>>> master
+=======
+        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.0342586">
+            <failure message="NoSuchElementError: Unable to locate element: .ipc-button__text">NoSuchElementError: Unable to locate element: .ipc-button__text
+    at Object.throwDecodedError (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
+    at thenableWebDriverProxy.schedule (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\step-definitions\imbd-signin.js:54:33)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+>>>>>>> Stashed changes
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" tests="5" failures="0" skipped="0">
