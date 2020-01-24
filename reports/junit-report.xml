@@ -1,24 +1,517 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-<<<<<<< HEAD
-    <testsuite name="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" tests="6" failures="0" skipped="1">
-=======
-<<<<<<< HEAD
-    <testsuite name="imdb-menu;get-the-list-of-the-top-250-movies" tests="4" failures="1" skipped="3">
->>>>>>> master
+    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-top-rated-tv-shows.feature">
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imbd-signin.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="7.424247501">
+        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="7.953182999">
         </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="1.0147717">
+        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="1.3028086">
         </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="2.846598301">
+        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1284914">
         </testcase>
-        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="0.077141801">
+        <testcase name="And type in the password : &quot;gifflar125&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.066731599">
         </testcase>
-        <testcase name="When I select sort by IMDB rating in the sort by box" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="1.009933399">
+        <testcase name="And click sing in" classname="imdb-sing-in;sign-in-with-imdb" time="5.2158949">
+        </testcase>
+        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.108789499">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="5" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imbd-signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="6.0700372">
+        </testcase>
+        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="0.5878246">
+        </testcase>
+        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.070736799">
+        </testcase>
+        <testcase name="And type in the password : &quot;gifflar125&quot; + hit ENTER" classname="imdb-sing-in;sign-in-with-imdb" time="0.062986299">
+        </testcase>
+        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.0114596">
+            <failure message="NoSuchElementError: Unable to locate element: .ipc-button__text">NoSuchElementError: Unable to locate element: .ipc-button__text
+    at Object.throwDecodedError (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\node_modules\selenium-webdriver\lib\error.js:497:15)
+    at parseHttpResponse (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
+    at thenableWebDriverProxy.schedule (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\step-definitions\imbd-signin.js:54:33)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-menu;get-the-list-of-the-top-250-movies" tests="4" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-menu.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-menu;get-the-list-of-the-top-250-movies">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-menu;get-the-list-of-the-top-250-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-menu;get-the-list-of-the-top-250-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be taken to the page with the list of top rated movies" classname="imdb-menu;get-the-list-of-the-top-250-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-menu;sort-top-250-movies-list-by-number-of-ratings" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-menu.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the top rated movies page" classname="imdb-menu;sort-top-250-movies-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-menu;sort-top-250-movies-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should resort by number of ratings" classname="imdb-menu;sort-top-250-movies-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-menu;get-the-list-of-the-most-popular-movies" tests="4" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-menu.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-menu;get-the-list-of-the-most-popular-movies">
+        </testcase>
+        <testcase name="And I have clicked on the munu button" classname="imdb-menu;get-the-list-of-the-most-popular-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on Most Popular Movies" classname="imdb-menu;get-the-list-of-the-most-popular-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be directed to the Most Popular Movies page" classname="imdb-menu;get-the-list-of-the-most-popular-movies">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-most-popular-movies;sort-list-by-imdb-ratings" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-most-popular-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by IMDB ratings in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should re-sort by IMDB ratings" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-most-popular-movies;sort-list-by-release-date" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-most-popular-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-release-date">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by release date in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should re-sort by release date" classname="imdb-most-popular-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-most-popular-movies;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-most-popular-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should re-sort by number of ratings" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-most-popular-tv-shows;sort-popular-shows-list-by-imdb-rating" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-most-popular-tv-shows.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-imdb-rating" time="6.5358994">
+        </testcase>
+        <testcase name="And i have clicked on the menu button" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-imdb-rating" time="1.005859601">
+        </testcase>
+        <testcase name="And i have clicked on most popular shows" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-imdb-rating" time="2.4280898">
+        </testcase>
+        <testcase name="And that I am on the most popular TV shows page sorted by ranking" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-imdb-rating" time="0.0347856">
+        </testcase>
+        <testcase name="When I select sort by IMDB rating in the sort by box" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-imdb-rating" time="1.005300899">
+        </testcase>
+        <testcase name="Then the popular shows list should be sorted by IMDB rating" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-imdb-rating" time="1.4678096">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-most-popular-tv-shows;sort-popular-shows-list-by-release-date" tests="6" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-most-popular-tv-shows.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-release-date" time="8.394288601">
+        </testcase>
+        <testcase name="And i have clicked on the menu button" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-release-date" time="1.006172999">
+        </testcase>
+        <testcase name="And i have clicked on most popular shows" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-release-date" time="2.0901881">
+        </testcase>
+        <testcase name="And that I am on the most popular TV shows page sorted by ranking" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-release-date" time="0.010514999">
+        </testcase>
+        <testcase name="When I select sort by release date in the sort by box" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-release-date" time="1.0064828">
+        </testcase>
+        <testcase name="Then the popular shows list should be sorted by release date" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-release-date" time="1.5772408">
+            <failure message="AssertionError: [message]: expected &apos;Release Date&apos; to deeply equal &apos;&apos;">AssertionError: [message]: expected &apos;Release Date&apos; to deeply equal &apos;&apos;
+    at Function.assert.deepEqual (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\node_modules\selenium-cucumber-js\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\step-definitions\imdb-menu-tv-shows.js:72:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-most-popular-tv-shows;sort-popular-shows-list-by-number-of-ratings" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-most-popular-tv-shows.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-number-of-ratings" time="5.5489325">
+        </testcase>
+        <testcase name="And i have clicked on the menu button" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-number-of-ratings" time="1.003747801">
+        </testcase>
+        <testcase name="And i have clicked on most popular shows" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-number-of-ratings" time="2.132210301">
+        </testcase>
+        <testcase name="And that I am on the most popular TV shows page sorted by ranking" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-number-of-ratings" time="0.0110599">
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-number-of-ratings" time="1.0100751">
+        </testcase>
+        <testcase name="Then the popular shows list should be sorted by number of ratings" classname="imdb-most-popular-tv-shows;sort-popular-shows-list-by-number-of-ratings" time="1.3380371">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="5.946829599">
+        </testcase>
+        <testcase name="And I have selected the &quot;All&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.5276795">
+        </testcase>
+        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.034093001">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.080657701">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="3.5085846">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="4.8102682">
+        </testcase>
+        <testcase name="And I have selected the &quot;All&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.5152036">
+        </testcase>
+        <testcase name="When I enter &quot;Breaking Bad&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0545563">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.040235599">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.014238801">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="5.9038959">
+        </testcase>
+        <testcase name="And I have selected the &quot;Celebs&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.598939499">
+        </testcase>
+        <testcase name="When I enter &quot;Ben Affleck&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0451245">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.042496399">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.403301301">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="6.4296582">
+        </testcase>
+        <testcase name="And I have selected the &quot;Celebs&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.535497">
+        </testcase>
+        <testcase name="When I enter &quot;Halle Berry&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0507327">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0439878">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.5680137">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="7.4213171">
+        </testcase>
+        <testcase name="And I have selected the &quot;Celebs&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.649069901">
+        </testcase>
+        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0380163">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.095794001">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.720641101">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="4.9708019">
+        </testcase>
+        <testcase name="And I have selected the &quot;Keywords&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="1.502948301">
+        </testcase>
+        <testcase name="When I enter &quot;Cars&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="0.040603901">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="0.0283835">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="1.1981567">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="6.09495">
+        </testcase>
+        <testcase name="And I have selected the &quot;Keywords&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="1.626097801">
+        </testcase>
+        <testcase name="When I enter &quot;Clown&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="0.0294848">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="0.0425628">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="1.2329195">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" tests="5" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am at the IMDB website" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" time="9.5684637">
+        </testcase>
+        <testcase name="And i have selected the &quot;Tv Episodes&quot; filter from the drop down menu" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" time="0.5614671">
+        </testcase>
+        <testcase name="When i enter &quot;The Kardashians&quot; in the search field" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i click the search button" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then i get a list of results" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" tests="5" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am at the IMDB website" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" time="4.974473299">
+        </testcase>
+        <testcase name="And i have selected the &quot;Tv Episodes&quot; filter from the drop down menu" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" time="0.544370199">
+        </testcase>
+        <testcase name="When i enter &quot;The Walking Dead&quot; in the search field" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i click the search button" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then i get a list of results" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-title.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am at the IMDB website" classname="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" time="6.8212009">
+        </testcase>
+        <testcase name="And i have selected the &quot;Titles&quot; filter from the drop down menu" classname="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" time="0.590344301">
+        </testcase>
+        <testcase name="When i enter &quot;The dark knight&quot; in the search field and hit enter" classname="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" time="0.081490799">
+        </testcase>
+        <testcase name="Then i get a list of results and click on the first result that comes up" classname="part-of-imdb-search;search-for-a-title-using-the-&quot;titles&quot;-filter" time="7.107428101">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;sort-list-by-imdb-ratings" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by IMDB ratings in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should re-sort by IMDB ratings" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;sort-list-by-release-date" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-release-date">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by release date in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should re-sort by release date" classname="imdb-top-rated-movies;sort-list-by-release-date">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the list should re-sort by number of ratings" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" tests="6" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-tv-shows.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="6.542438901">
+        </testcase>
+        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="1.0055866">
+        </testcase>
+        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="2.5464317">
+        </testcase>
+        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="0.0317239">
+        </testcase>
+        <testcase name="When I select sort by IMDB rating in the sort by box" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating" time="1.003574501">
         </testcase>
         <testcase name="Then the list should be sorted by IMDB rating" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-imdb-rating">
             <skipped message="">
@@ -27,18 +520,18 @@
     </testsuite>
     <testsuite name="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" tests="6" failures="0" skipped="1">
         <properties>
-            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-top-rated-tv-shows.feature">
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-tv-shows.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="6.5647719">
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="6.612283099">
         </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="1.007570099">
+        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="1.002213399">
         </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="2.674947399">
+        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="2.6818227">
         </testcase>
-        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="0.0648787">
+        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="0.031176001">
         </testcase>
-        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="1.010889299">
+        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings" time="1.0041298">
         </testcase>
         <testcase name="Then the list should be sorted by number of ratings" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-number-of-ratings">
             <skipped message="">
@@ -47,301 +540,40 @@
     </testsuite>
     <testsuite name="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" tests="6" failures="1" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\features\imdb-top-rated-tv-shows.feature">
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-tv-shows.feature">
             </property>
         </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="6.0616533">
+        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="6.503529901">
         </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="1.0161163">
+        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="1.0039925">
         </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="2.575081701">
+        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="2.555661101">
         </testcase>
-        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="0.061087799">
+        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="0.032214599">
         </testcase>
-<<<<<<< HEAD
-        <testcase name="When I select sort by release date in the sort by box" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="1.0165686">
-=======
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I select sort by release date in the sort by box" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="1.0036751">
         </testcase>
-    </testsuite>
-    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="6.2127648">
-        </testcase>
-        <testcase name="And I have selected the Celebs filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.249828">
-        </testcase>
-        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.268997899">
-        </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.029864699">
-        </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.8223761">
-=======
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <testsuite name="imdb-most-popular-movies;sort-list-by-imdb-ratings" tests="6" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="8.2133094">
-        </testcase>
-        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="2.0157338">
-        </testcase>
-        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="3.768850001">
-        </testcase>
-        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="0.014771701">
-        </testcase>
-        <testcase name="When I select sort by IMDB ratings in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="2.0377343">
-        </testcase>
-        <testcase name="Then the list should re-sort by IMDB ratings" classname="imdb-most-popular-movies;sort-list-by-imdb-ratings" time="1.8870513">
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-most-popular-movies;sort-list-by-release-date" tests="6" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-release-date" time="8.1027628">
-        </testcase>
-        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-release-date" time="2.0124692">
-        </testcase>
-        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-release-date" time="3.4287508">
-        </testcase>
-        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-release-date" time="0.010437999">
-        </testcase>
-        <testcase name="When I select sort by release date in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-release-date" time="2.0131899">
-        </testcase>
-        <testcase name="Then the list should re-sort by release date" classname="imdb-most-popular-movies;sort-list-by-release-date" time="1.847240901">
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-most-popular-movies;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-most-popular-movies.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am at the IMDB homepage" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="7.8640411">
-        </testcase>
-        <testcase name="And I have clicked on the menu button" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="2.0134868">
-        </testcase>
-        <testcase name="And I have clicked on most popular movies" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="3.9021061">
-        </testcase>
-        <testcase name="And that I am on the popular movies page sorted by ranking" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="0.007155799">
-        </testcase>
-        <testcase name="When I select sort by number of ratings in the sort-by box" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="2.023132601">
-        </testcase>
-        <testcase name="Then the list should re-sort by number of ratings" classname="imdb-most-popular-movies;sort-list-by-number-of-ratings" time="1.626564799">
-=======
-    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" tests="5" failures="0" skipped="0">
-=======
-    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="0" skipped="0">
->>>>>>> Stashed changes
-        <properties>
-            <property name="URI" value="C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\features\imbd-signin.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="9.6132832">
-        </testcase>
-        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="0.8203631">
-        </testcase>
-        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.1229622">
-        </testcase>
-        <testcase name="And type in the password : &quot;gifflar125&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.0902875">
-        </testcase>
-        <testcase name="And click sing in" classname="imdb-sing-in;sign-in-with-imdb" time="8.6063979">
-        </testcase>
-        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.1359356">
->>>>>>> master
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="5" failures="1" skipped="0">
-        <properties>
-<<<<<<< HEAD
-            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="8.712927401">
->>>>>>> master
-        </testcase>
-        <testcase name="Then the list should be sorted by release date" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="1.696605701">
-            <failure message="AssertionError: [message]: expected &apos;Release Date&apos; to deeply equal &apos;&apos;">AssertionError: [message]: expected &apos;Release Date&apos; to deeply equal &apos;&apos;
-    at Function.assert.deepEqual (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\node_modules\selenium-cucumber-js\node_modules\chai\lib\chai\interface\assert.js:216:32)
+        <testcase name="Then the list should be sorted by release date" classname="imdb-top-rated-tv-shows;sort-top-rated-list-by-release-date" time="3.228326201">
+            <failure message="AssertionError: [message]: expected &apos;Release Date&apos; to equal &apos;&apos;">AssertionError: [message]: expected &apos;Release Date&apos; to equal &apos;&apos;
     at createWorld.&lt;anonymous&gt; (C:\Users\insik\Documents\New folder\imdb-group-c\imdb-group-c\step-definitions\imdb-menu-tv-shows.js:91:16)
+    at runMicrotasks (&lt;anonymous&gt;)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
         </testcase>
-<<<<<<< HEAD
-=======
-        <testcase name="When I enter &quot;Cars&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
-            <skipped message="">
-            </skipped>
-=======
-            <property name="URI" value="C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\features\imbd-signin.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am at the IMDb sing in option page" classname="imdb-sing-in;sign-in-with-imdb" time="10.4335032">
-        </testcase>
-        <testcase name="When click the on Sing in with IMDb" classname="imdb-sing-in;sign-in-with-imdb" time="1.1504274">
-        </testcase>
-        <testcase name="And type in the email : &quot;anton.fransen@hotmail.com&quot;" classname="imdb-sing-in;sign-in-with-imdb" time="0.144261799">
->>>>>>> master
-        </testcase>
-        <testcase name="And type in the password : &quot;gifflar125&quot; + hit ENTER" classname="imdb-sing-in;sign-in-with-imdb" time="0.140035201">
-        </testcase>
-<<<<<<< Updated upstream
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
-            <skipped message="">
-            </skipped>
->>>>>>> master
-=======
-        <testcase name="Then I should get singnd in" classname="imdb-sing-in;sign-in-with-imdb" time="0.0342586">
-            <failure message="NoSuchElementError: Unable to locate element: .ipc-button__text">NoSuchElementError: Unable to locate element: .ipc-button__text
-    at Object.throwDecodedError (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\error.js:497:15)
-    at parseHttpResponse (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:519:13)
-    at C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\http.js:441:30
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
-    at thenableWebDriverProxy.schedule (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
-    at thenableWebDriverProxy.findElement (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
-    at createWorld.&lt;anonymous&gt; (C:\Users\admin.LANTBOFF4275\Desktop\Dev\imdb-group-c\step-definitions\imbd-signin.js:54:33)
-    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
->>>>>>> Stashed changes
-        </testcase>
     </testsuite>
-    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" tests="5" failures="0" skipped="0">
+    <testsuite name="part-of-imdb-search;search-for-celeb-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-search.feature">
+            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/small.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="11.843193899">
+        <testcase name="Given that I am at the IMDB website" classname="part-of-imdb-search;search-for-celeb-using-the-&quot;celebs&quot;-filter" time="4.919553801">
         </testcase>
-        <testcase name="And I have selected the Keyword filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.257262">
+        <testcase name="And I have selected the &quot;Celebs&quot; filter from the drop down menu" classname="part-of-imdb-search;search-for-celeb-using-the-&quot;celebs&quot;-filter" time="1.479663999">
         </testcase>
-        <testcase name="When I enter &quot;Clown&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.27189">
+        <testcase name="When I enter &quot;Ben Affleck&quot; in the search field" classname="part-of-imdb-search;search-for-celeb-using-the-&quot;celebs&quot;-filter" time="0.0571733">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.0407439">
+        <testcase name="And I click the search button" classname="part-of-imdb-search;search-for-celeb-using-the-&quot;celebs&quot;-filter" time="0.0318406">
         </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="2.360925501">
+        <testcase name="Then I get a list of results" classname="part-of-imdb-search;search-for-celeb-using-the-&quot;celebs&quot;-filter" time="1.001614699">
         </testcase>
-    </testsuite>
-    <testsuite name="imdb-top-rated-tv-shows;sort-list-by-imdb-rating" tests="6" failures="0" skipped="4">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-tv-shows.feature">
-            </property>
-        </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating" time="8.676842799">
-        </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating" time="0.504331199">
-        </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I select sort by IMDB rating in the sort by box" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the list should be sorted by IMDB rating" classname="imdb-top-rated-tv-shows;sort-list-by-imdb-rating">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="4">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-tv-shows.feature">
-            </property>
-        </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings" time="6.4874751">
-        </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings" time="0.5049247">
-        </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the list should be sorted by number of ratings" classname="imdb-top-rated-tv-shows;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-top-rated-tv-shows;sort-list-by-release-date" tests="6" failures="0" skipped="4">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated-tv-shows.feature">
-            </property>
-        </properties>
-        <testcase name="Given that i am on the IMDB front page" classname="imdb-top-rated-tv-shows;sort-list-by-release-date" time="10.796945101">
-        </testcase>
-        <testcase name="And i have clicked on the menu button" classname="imdb-top-rated-tv-shows;sort-list-by-release-date" time="0.5054953">
-        </testcase>
-        <testcase name="And i have clicked on top rated shows" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And that I am on the top rated TV shows page sorted by ranking" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I select sort by release date in the sort by box" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the list should be sorted by release date" classname="imdb-top-rated-tv-shows;sort-list-by-release-date">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-top-rated-movies;get-the-list-of-movies" tests="4" failures="0" skipped="3">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;get-the-list-of-movies" time="8.556282501">
-        </testcase>
-        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;get-the-list-of-movies">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;get-the-list-of-movies">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then I should be taken to the page with the list of top rated movies" classname="imdb-top-rated-movies;get-the-list-of-movies">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="imdb-top-rated-movies;sort-list-by-number-of-ratings" tests="3" failures="0" skipped="3">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/imdb-group-c/imdb-group-c/features/imdb-top-rated.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on the top rated movies page" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When I select sort by number of ratings in the sort by box" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the list should resort by number of ratings" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings">
-            <skipped message="">
-            </skipped>
-        </testcase>
->>>>>>> master
     </testsuite>
 </testsuites>
