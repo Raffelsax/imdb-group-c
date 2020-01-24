@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< Updated upstream
     "description": "    -Be able to sing in to a account\n    -Then also have access to the features as a acount user",
     "elements": [
       {
@@ -7,10 +8,20 @@
         "keyword": "Scenario",
         "line": 7,
         "name": "Sign in with IMDb",
+=======
+    "description": "   As a user \n   I would like a list of the top user rated movies on IMDB",
+    "elements": [
+      {
+        "id": "imdb-top-rated-movies;sort-list-by-imdb-ratings",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Sort list by IMDB ratings",
+>>>>>>> Stashed changes
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< Updated upstream
             "name": "that I am at the IMDb sing in option page",
             "result": {
               "status": "passed",
@@ -19,10 +30,34 @@
             "line": 8,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:6"
+=======
+            "name": "that I am at the IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 10698764700
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
             }
           },
           {
             "arguments": [],
+            "keyword": "And ",
+            "name": "I have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2026107600
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+>>>>>>> Stashed changes
+            }
+          },
+          {
+            "arguments": [],
+<<<<<<< Updated upstream
             "keyword": "When ",
             "name": "click the on Sing in with IMDb",
             "result": {
@@ -32,11 +67,23 @@
             "line": 9,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:13"
+=======
+            "keyword": "And ",
+            "name": "I have clicked on top rated movies",
+            "result": {
+              "status": "passed",
+              "duration": 5566691501
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:23"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< Updated upstream
             "name": "type in the email : \"anton.fransen@hotmail.com\"",
             "result": {
               "status": "passed",
@@ -45,11 +92,83 @@
             "line": 10,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:23"
+=======
+            "name": "that I am on the top rated movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 12613300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select sort by IMDB ratings in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2093136700
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the list should re-sort by IMDB ratings",
+            "result": {
+              "status": "passed",
+              "duration": 4066455500
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2788962599
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "imdb-top-rated-movies;sort-list-by-release-date",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Sort list by release date",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am at the IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 10480077000
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< Updated upstream
             "name": "type in the password : \"gifflar125\"",
             "result": {
               "status": "passed",
@@ -71,11 +190,61 @@
             "line": 12,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:45"
+=======
+            "name": "I have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2022461300
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have clicked on top rated movies",
+            "result": {
+              "status": "passed",
+              "duration": 4958776400
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I am on the top rated movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 9074200
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select sort by release date in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2094587299
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:53"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< Updated upstream
             "name": "I should get singnd in",
             "result": {
               "status": "passed",
@@ -84,6 +253,16 @@
             "line": 13,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:52"
+=======
+            "name": "the list should re-sort by release date",
+            "result": {
+              "status": "passed",
+              "duration": 3222406299
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:60"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -91,11 +270,19 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 1541734700
             },
             "hidden": true,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+              "duration": 2788393000
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> Stashed changes
             }
           }
         ],
@@ -103,26 +290,45 @@
         "type": "scenario"
       },
       {
+<<<<<<< Updated upstream
         "id": "imdb-sing-in;sign-in-with-imdb",
         "keyword": "Scenario",
         "line": 15,
         "name": "Sign in with IMDb",
+=======
+        "id": "imdb-top-rated-movies;sort-list-by-number-of-ratings",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Sort list by number of ratings",
+>>>>>>> Stashed changes
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< Updated upstream
             "name": "that I am at the IMDb sing in option page",
             "result": {
               "status": "passed",
               "duration": 4245899000
+=======
+            "name": "that I am at the IMDB homepage",
+            "result": {
+              "status": "passed",
+              "duration": 9710543701
+>>>>>>> Stashed changes
             },
             "line": 16,
             "match": {
+<<<<<<< Updated upstream
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:6"
+=======
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:7"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
+<<<<<<< Updated upstream
             "keyword": "When ",
             "name": "click the on Sing in with IMDb",
             "result": {
@@ -132,11 +338,23 @@
             "line": 17,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:13"
+=======
+            "keyword": "And ",
+            "name": "I have clicked on the menu button",
+            "result": {
+              "status": "passed",
+              "duration": 2009278099
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:15"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< Updated upstream
             "name": "type in the email : \"anton.fransen@hotmail.com\"",
             "result": {
               "status": "passed",
@@ -145,11 +363,22 @@
             "line": 18,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:23"
+=======
+            "name": "I have clicked on top rated movies",
+            "result": {
+              "status": "passed",
+              "duration": 4985009600
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:23"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< Updated upstream
             "name": "type in the password : \"gifflar125\" + hit ENTER",
             "result": {
               "status": "passed",
@@ -158,11 +387,35 @@
             "line": 19,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:37"
+=======
+            "name": "that I am on the top rated movies page sorted by ranking",
+            "result": {
+              "status": "passed",
+              "duration": 9994500
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select sort by number of ratings in the sort-by box",
+            "result": {
+              "status": "passed",
+              "duration": 2035015801
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:66"
+>>>>>>> Stashed changes
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< Updated upstream
             "name": "I should get singnd in",
             "result": {
               "status": "failed",
@@ -172,6 +425,16 @@
             "line": 20,
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\step-definitions\\imbd-signin.js:52"
+=======
+            "name": "the list should re-sort by number of ratings",
+            "result": {
+              "status": "passed",
+              "duration": 3563891300
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\step-definitions\\imdb-menu-top-rated-movies.js:73"
+>>>>>>> Stashed changes
             }
           },
           {
@@ -179,6 +442,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
+<<<<<<< Updated upstream
               "duration": 1167204000
             },
             "hidden": true,
@@ -190,6 +454,13 @@
             ],
             "match": {
               "location": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+=======
+              "duration": 2685657300
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+>>>>>>> Stashed changes
             }
           }
         ],
@@ -197,11 +468,20 @@
         "type": "scenario"
       }
     ],
+<<<<<<< Updated upstream
     "id": "imdb-sing-in",
     "keyword": "Feature",
     "line": 1,
     "name": "IMDB Sing in",
     "tags": [],
     "uri": "C:\\Users\\sharr\\OneDrive\\Skrivbord\\imdb-group-c\\features\\imdb-signin.feature"
+=======
+    "id": "imdb-top-rated-movies",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "IMDB Top Rated Movies",
+    "tags": [],
+    "uri": "C:\\Users\\matti\\OneDrive\\Skrivbord\\Programming\\imdb-group-c\\features\\imdb-top-rated-movies.feature"
+>>>>>>> Stashed changes
   }
 ]

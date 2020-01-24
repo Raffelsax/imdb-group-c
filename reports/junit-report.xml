@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
+<<<<<<< Updated upstream
     <testsuite name="imdb-sing-in;sign-in-with-imdb" tests="6" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-signin.feature">
@@ -42,6 +43,60 @@ From: Task: WebDriver.findElement(By(css selector, .ipc-button__text))
     at thenableWebDriverProxy.findElement (C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
     at createWorld.&lt;anonymous&gt; (C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\step-definitions\imbd-signin.js:54:33)
     at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+=======
+    <testsuite name="imdb-top-rated-movies;sort-list-by-imdb-ratings" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="10.6987647">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="2.0261076">
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="5.566691501">
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="0.0126133">
+        </testcase>
+        <testcase name="When I select sort by IMDB ratings in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="2.0931367">
+        </testcase>
+        <testcase name="Then the list should re-sort by IMDB ratings" classname="imdb-top-rated-movies;sort-list-by-imdb-ratings" time="4.0664555">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;sort-list-by-release-date" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-release-date" time="10.480077">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-release-date" time="2.0224613">
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-release-date" time="4.9587764">
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-release-date" time="0.0090742">
+        </testcase>
+        <testcase name="When I select sort by release date in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-release-date" time="2.094587299">
+        </testcase>
+        <testcase name="Then the list should re-sort by release date" classname="imdb-top-rated-movies;sort-list-by-release-date" time="3.222406299">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-top-rated-movies;sort-list-by-number-of-ratings" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\matti\OneDrive\Skrivbord\Programming\imdb-group-c\features\imdb-top-rated-movies.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am at the IMDB homepage" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="9.710543701">
+        </testcase>
+        <testcase name="And I have clicked on the menu button" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="2.009278099">
+        </testcase>
+        <testcase name="And I have clicked on top rated movies" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="4.9850096">
+        </testcase>
+        <testcase name="And that I am on the top rated movies page sorted by ranking" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="0.0099945">
+        </testcase>
+        <testcase name="When I select sort by number of ratings in the sort-by box" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="2.035015801">
+        </testcase>
+        <testcase name="Then the list should re-sort by number of ratings" classname="imdb-top-rated-movies;sort-list-by-number-of-ratings" time="3.5638913">
+>>>>>>> Stashed changes
         </testcase>
     </testsuite>
 </testsuites>
