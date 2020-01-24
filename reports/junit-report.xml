@@ -56,121 +56,156 @@
 =======
     <testsuite name="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="5.3332788">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="7.3436449">
         </testcase>
-        <testcase name="And I have selected the All filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0099787">
+        <testcase name="And I have selected the &quot;All&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.5057269">
         </testcase>
-        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0733353">
+        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0902414">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0412822">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0366075">
         </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.2095533">
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.7764973">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="6.4431984">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="7.3677497">
         </testcase>
-        <testcase name="And I have selected the All filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.006970501">
+        <testcase name="And I have selected the &quot;All&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.6233694">
         </testcase>
-        <testcase name="When I enter &quot;Breaking Bad&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.098884301">
+        <testcase name="When I enter &quot;Breaking Bad&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.0684938">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.1475942">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="0.051289">
         </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.615049">
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;all&quot;-filter" time="1.421299999">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="5.174385101">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="6.2970098">
         </testcase>
-        <testcase name="And I have selected the Celebs filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.258807499">
+        <testcase name="And I have selected the &quot;Celebs&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.499214601">
         </testcase>
-        <testcase name="When I enter &quot;Ben Affleck&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.2899176">
+        <testcase name="When I enter &quot;Ben Affleck&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.083631999">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.040937899">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0368702">
         </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.4296928">
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.410630699">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="5.3740775">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="10.8543437">
         </testcase>
-        <testcase name="And I have selected the Celebs filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.273438">
+        <testcase name="And I have selected the &quot;Celebs&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.5815901">
         </testcase>
-        <testcase name="When I enter &quot;Halle Berry&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.3013187">
+        <testcase name="When I enter &quot;Halle Berry&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.1044046">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0457932">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.046705399">
         </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.6418184">
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.627671099">
         </testcase>
     </testsuite>
     <testsuite name="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="5.2677688">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="8.2336428">
         </testcase>
-        <testcase name="And I have selected the Celebs filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.260422001">
+        <testcase name="And I have selected the &quot;Celebs&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.5934612">
         </testcase>
-        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.2813471">
+        <testcase name="When I enter &quot;Avatar&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.112927701">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.0522993">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="0.1931541">
         </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="1.991081299">
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;celebs&quot;-filter" time="3.0567103">
         </testcase>
     </testsuite>
-    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" tests="5" failures="0" skipped="0">
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="5.1449868">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="7.888762">
         </testcase>
-        <testcase name="And I have selected the Keyword filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.2570735">
+        <testcase name="And I have selected the &quot;Keywords&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="1.641057">
         </testcase>
-        <testcase name="When I enter &quot;Cars&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.2600421">
+        <testcase name="When I enter &quot;Cars&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="0.0745328">
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.0609085">
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="0.0579259">
         </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="1.342097">
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="3.040554799">
         </testcase>
     </testsuite>
-    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" tests="5" failures="1" skipped="3">
+    <testsuite name="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\features\imdb-search.feature">
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
             </property>
         </properties>
-        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="6.497027999">
+        <testcase name="Given that I am at the IMDB website" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="6.055349401">
         </testcase>
-        <testcase name="And I have selected the Keyword filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter" time="0.317978201">
-            <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
-    at createWorld.&lt;anonymous&gt; (C:\Users\srcha\Google Drive\Skola\dev\imdb-group-c\step-definitions\imdb-search.js:60:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        <testcase name="And I have selected the &quot;Keywords&quot; filter from the drop down menu" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="1.4910885">
         </testcase>
-        <testcase name="When I enter &quot;Clown&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
+        <testcase name="When I enter &quot;Clown&quot; in the search field" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="0.0534032">
+        </testcase>
+        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="0.0308888">
+        </testcase>
+        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keywords&quot;-filter" time="3.990356">
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" tests="5" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am at the IMDB website" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" time="8.4630704">
+        </testcase>
+        <testcase name="And i have selected the &quot;Tv Episodes&quot; filter from the drop down menu" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" time="0.9627055">
+        </testcase>
+        <testcase name="When i enter &quot;The Kardashians&quot; in the search field" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="And I click the search button" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
+        <testcase name="And i click the search button" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
             <skipped message="">
             </skipped>
         </testcase>
-        <testcase name="Then I get a list of results" classname="imdb-search;search-for-keywords-using-the-&quot;keyword&quot;-filter">
+        <testcase name="Then i get a list of results" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" tests="5" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:\Users\sharr\OneDrive\Skrivbord\imdb-group-c\features\imdb-search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that i am at the IMDB website" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" time="6.3049522">
+        </testcase>
+        <testcase name="And i have selected the &quot;Tv Episodes&quot; filter from the drop down menu" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter" time="0.548575699">
+        </testcase>
+        <testcase name="When i enter &quot;The Walking Dead&quot; in the search field" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And i click the search button" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then i get a list of results" classname="imdb-search;search-for-a-tv-episode-using-the-&quot;tv-episodes&quot;-filter">
             <skipped message="">
             </skipped>
 >>>>>>> master
